@@ -1,3 +1,4 @@
 <?php
-    $contentfulClient = new \Contentful\Delivery\Client('dbc9af1bc9c470cde0afd07206d8bc991347ff89d73662bb14c42429354ee4b6', 'j7bciyvbrwk4');
+    require_once( __DIR__ . '/../config.php' );
+    $contentfulClient = new \Contentful\Delivery\Client( CONTENTFUL_API_KEY, CONTENTFUL_SPACE_ID );
 ?>

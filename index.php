@@ -9,8 +9,8 @@ $less = new \lessc;
 $less->checkedCompile( LESS_DIR . '/main.less', __DIR__ . '/assets/css/compiled.css' );
 
 $rules = array( 
-    'project'   => "/project/(?'slug'[^/]+)",    // '/project/some-project-slug'
-    'home'      => "/"                           // '/'
+    'datenschutz' => "/datenschutz",    // '/datenschutz'
+    'home'        => "/"                // '/'
 );
 
 $uri = rtrim( dirname($_SERVER["SCRIPT_NAME"]), '/' );

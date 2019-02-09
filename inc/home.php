@@ -1,29 +1,22 @@
 <?php
     require( TEMPLATE_DIR . 'renderHead.php' );
-    $query = new \Contentful\Delivery\Query();
-    $query->setContentType('project');
-    try {
-        $projects = $contentfulClient->getEntries($query);
-    } catch (\Contentful\Core\Exception\NotFoundException $exception) {
-        debug_to_console( 'Contentful error: ' . $exception );
-    }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-    <?php renderHead( 'Säum Architekten Berlin | Sanierung und Planung im denkmalgeschützten Bereich', 'TODO: Säum Architekten Berlin | Sanierung und Planung im denkmalgeschützten Bereich' ) ?>
+    <?php renderHead(
+        'Kanzlei Kirsch | Handwerk, Wirtschaft & IT/Medien, allgemeines Zivilrecht',
+        'Die Anwaltskanzlei im Herzen Rosenheims möchte Leben in das Recht bringen:
+Mandantenorientierung, Innovation, Verbindung von Tradition und Moderne.') ?>
 
     <body>
-        <?php include( TEMPLATE_DIR . '/navigation.php') ?>
-        
-        <ul>
-        <?php
-            foreach ($projects as $project) {
-                echo '<li><a href="/project/' . $project->getId() . '">' . $project->headline . '</a></li>';
-            }
-        ?>
-        </ul>
-
-        <?php include( TEMPLATE_DIR . '/footer.php') ?>
+        <?php include( TEMPLATE_DIR . 'navigation.php') ?>
+        <?php include( TEMPLATE_DIR . 'intro.php') ?>
+        <?php include( TEMPLATE_DIR . 'kanzlei.php') ?>
+        <?php include( TEMPLATE_DIR . 'rechtsgebiete.php') ?>
+        <?php include( TEMPLATE_DIR . 'about.php') ?>
+        <?php include( TEMPLATE_DIR . 'kosten.php') ?>
+        <?php include( TEMPLATE_DIR . 'kontakt.php') ?>
+        <?php include( TEMPLATE_DIR . 'footer.php') ?>
     </body>
 </html>
