@@ -9,3 +9,4 @@
     <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
     <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick-theme.css">
     <link rel="stylesheet" href="/assets/css/compiled.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption|PT+Serif:400,700|Work+Sans:400,500,600" rel="stylesheet">
