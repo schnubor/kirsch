@@ -1,4 +1,40 @@
-.logo {
-    font-family: 'PT Serif', serif;
-    font-weight: bold;
+.navflex {
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+    .left {
+        display: flex;
+
+        .logo {
+            font-family: 'PT Serif', serif;
+            font-weight: bold;
+            font-size: 42px;
+            color: @black;
+        }
+    }
+
+    .middle {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+
+        .navlist {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            .navitem {
+                display: inline-block;
+                padding-left: 16px;
+            }
+        }
+    }
+
+    .right {
+        .logoImg {
+            width: 50px;
+            padding-left: 16px;
+        }
+    }
 }

@@ -6,7 +6,7 @@ require_once( INCLUDE_DIR . 'contentful-init.php' );
 
 // Less compiler
 $less = new \lessc;
-$less->checkedCompile( LESS_DIR . '/main.less', __DIR__ . '/assets/css/compiled.css' );
+$less->compileFile( LESS_DIR . '/main.less', __DIR__ . '/assets/css/compiled.css' );
 
 $rules = array( 
     'datenschutz' => "/datenschutz",    // '/datenschutz'
