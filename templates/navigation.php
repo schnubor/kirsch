@@ -1,4 +1,4 @@
-<div class="container">
+<div class="navigation">
     <div class="navflex">
         <div class="left">
             <div class="logo">
@@ -25,7 +25,7 @@
             </ul>
         </div>
         <div class="right">
-            <img src="/assets/images/logo_black.png" alt="Logo" class="logoImg">
+            <img src="/assets/images/logo_white.png" alt="Logo" class="logoImg">
         </div>
     </div>
 </div>
