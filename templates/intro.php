@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                <div class="box">
+                    <div class="box">
                         Rat neu erfunden
                         <hr>
                         <p>

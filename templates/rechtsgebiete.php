@@ -9,8 +9,14 @@
     }
 ?>
 
-<?php
-    foreach ($rechtsgebiete as $rechtsgebiet) {
-        return renderRechtsgebiet($rechtsgebiet);
-    }
-?>
+<div id="rechtsgebiete" class="section">
+    <div class="container">
+        <div class="row">
+            <?php
+                foreach ($rechtsgebiete as $rechtsgebiet) {
+                    renderRechtsgebiet($rechtsgebiet);
+                }
+            ?>
+        </div>
+    </div>
+</div>
