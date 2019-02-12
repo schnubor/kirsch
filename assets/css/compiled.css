@@ -1,0 +1,111 @@
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navflex {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 0 24px;
+  font-family: 'Work Sans', sans-serif;
+}
+.navflex .left {
+  display: flex;
+}
+.navflex .left .logo {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 52px;
+  color: white;
+}
+.navflex .middle {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.navflex .middle .navlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.navflex .middle .navlist .navitem {
+  display: inline-block;
+  padding-left: 16px;
+  transition: .4s all;
+  cursor: pointer;
+}
+.navflex .middle .navlist .navitem:hover {
+  transform: translateY(-2px);
+}
+.navflex .middle .navlist .navitem a {
+  color: #ded9d4;
+  transition: .2s all;
+  text-decoration: none;
+}
+.navflex .middle .navlist .navitem a:hover {
+  color: white;
+}
+.navflex .right .logoImg {
+  width: 80px;
+  padding-left: 24px;
+}
+.intro {
+  background: url('http://www.kirschkanzlei.de/start/wp-content/uploads/2019/01/neonbrand-716635-unsplash.jpg');
+  height: 100vh;
+  max-height: 800px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.intro .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+}
+.intro .overlay .box {
+  padding: 24px;
+  background-color: white;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 32px;
+  height: 330px;
+}
+.intro .overlay .box.centered {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.intro .overlay .box h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.intro .overlay .box a {
+  color: #a64533;
+  transition: .2s all;
+}
+.intro .overlay .box a:hover {
+  color: #883f32;
+  text-decoration: none;
+}
+.intro .overlay .box p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.intro .overlay .box hr {
+  border-top: 2px solid #111111;
+}
+.section {
+  padding: 80px 0;
+}
+footer {
+  padding-bottom: 50px;
+}
