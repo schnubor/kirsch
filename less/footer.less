@@ -1,0 +1,49 @@
+footer {
+    font-family: "Works Sans", sans-serif;
+    height: 80px;
+    background-color: @black;
+    a {
+        color: @dark-grey;
+        padding-right: 16px;
+        transition: .2s all;
+
+        &:hover{
+            text-decoration: none;
+            color: @middle-grey;
+        }
+    }
+    .flex {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        .left {
+            .logo {
+                font-size: 24px;
+                font-family: "PT Serif", serif;
+                color: @middle-grey;
+                padding-right: 24px;
+            }
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .right {
+            display: flex;
+            justify-content: flex-end;
+            flex-grow: 1;
+            color: #404040;;
+            font-size: 12px;
+            
+            a {
+                color: @red;
+                padding-right: 0;
+                transition: .2s all;
+
+                &:hover{
+                    text-decoration: none;
+                    color: @dark-red;
+                }
+            }
+        }
+    }
+}

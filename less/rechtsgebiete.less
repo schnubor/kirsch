@@ -1,9 +1,47 @@
+#rechtsgebiete {
+    font-family: "Work Sans", sans-serif;
+    background-color: @black;
+
+    h3 {
+        margin-bottom: 1.5rem;
+    }
+
+    .area {
+        padding: 24px;
+        box-shadow: -2px 7px 20px rgba(0,0,0,.2);
+        border-radius: 4px;
+        margin: 16px 0;
+        background-color: @light-warm-grey;
+
+        h4 {
+            font-size: 16px;
+            color: @middle-grey;
+        }
+    }
+}
+
 .collapse-button {
     cursor: pointer;
     margin-bottom: 16px;
+
+    &.collapsed {
+        i {
+            transform: rotate(0deg);
+        }
+    }
+
+    i {
+        color: @red;
+        transition: .2s all;
+        transform: rotate(90deg);
+    }
+
+    span {
+        padding-left: 16px;
+    }
 }
 
 .collapse-content {
     margin-bottom: 0;
-    padding: 0 0 16px;
+    padding: 0 0 16px 26px;
 }

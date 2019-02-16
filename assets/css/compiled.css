@@ -72,11 +72,12 @@
 }
 .intro .overlay .box {
   padding: 24px;
-  background-color: white;
+  background-color: #efece8;
   font-family: 'PT Serif', serif;
   font-weight: bold;
   font-size: 32px;
   height: 330px;
+  border-radius: 4px;
 }
 .intro .overlay .box.centered {
   text-align: center;
@@ -103,17 +104,93 @@
 .intro .overlay .box hr {
   border-top: 2px solid #111111;
 }
+#rechtsgebiete {
+  font-family: "Work Sans", sans-serif;
+  background-color: #111111;
+}
+#rechtsgebiete h3 {
+  margin-bottom: 1.5rem;
+}
+#rechtsgebiete .area {
+  padding: 24px;
+  box-shadow: -2px 7px 20px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 16px 0;
+  background-color: #efece8;
+}
+#rechtsgebiete .area h4 {
+  font-size: 16px;
+  color: #9c9c9c;
+}
 .collapse-button {
   cursor: pointer;
   margin-bottom: 16px;
 }
+.collapse-button.collapsed i {
+  transform: rotate(0deg);
+}
+.collapse-button i {
+  color: #a64533;
+  transition: .2s all;
+  transform: rotate(90deg);
+}
+.collapse-button span {
+  padding-left: 16px;
+}
 .collapse-content {
   margin-bottom: 0;
-  padding: 0 0 16px;
-}
-.section {
-  padding: 80px 0;
+  padding: 0 0 16px 26px;
 }
 footer {
-  padding-bottom: 50px;
+  font-family: "Works Sans", sans-serif;
+  height: 80px;
+  background-color: #111111;
+}
+footer a {
+  color: #626262;
+  padding-right: 16px;
+  transition: .2s all;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #9c9c9c;
+}
+footer .flex {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+footer .flex .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer .flex .left .logo {
+  font-size: 24px;
+  font-family: "PT Serif", serif;
+  color: #9c9c9c;
+  padding-right: 24px;
+}
+footer .flex .right {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  color: #404040;
+  font-size: 12px;
+}
+footer .flex .right a {
+  color: #a64533;
+  padding-right: 0;
+  transition: .2s all;
+}
+footer .flex .right a:hover {
+  text-decoration: none;
+  color: #883f32;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #111111;
+}
+section {
+  padding: 80px 0;
 }
