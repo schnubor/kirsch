@@ -1,3 +1,5 @@
 <section id="kanzlei">
-    Kanzlei
+    <div class="container">
+        Kanzlei
+    </div>
 </section>

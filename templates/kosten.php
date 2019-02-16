@@ -1,3 +1,5 @@
 <section id="kosten">
-    Kosten
+    <div class="container">
+        Kosten
+    </div>
 </section>

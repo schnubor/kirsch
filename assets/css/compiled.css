@@ -120,7 +120,10 @@
 }
 #rechtsgebiete .area h4 {
   font-size: 16px;
-  color: #9c9c9c;
+  color: #111111;
+}
+#rechtsgebiete hr {
+  border-top: 2px solid #111111;
 }
 .collapse-button {
   cursor: pointer;
@@ -140,6 +143,50 @@
 .collapse-content {
   margin-bottom: 0;
   padding: 0 0 16px 26px;
+  color: #626262;
+}
+#kontakt {
+  background-color: #c8c2bd;
+}
+#kontakt .map {
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 0;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+  margin-bottom: 32px;
+}
+#kontakt a {
+  text-decoration: none;
+}
+#kontakt a:hover {
+  text-decoration: none;
+}
+#kontakt .contactbox {
+  display: flex;
+  align-items: center;
+  color: #626262;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  background-color: #efece8;
+  height: 60px;
+  padding: 0 24px;
+  font-size: 18px;
+  text-decoration: none;
+}
+#kontakt .contactbox i {
+  font-size: 24px;
+}
+#kontakt .contactbox span {
+  padding-left: 16px;
+}
+#kanzlei {
+  background-color: #efece8;
+}
+#about {
+  background-color: #9c9c9c;
+}
+#kosten {
+  background-color: #bc9757;
 }
 footer {
   font-family: "Works Sans", sans-serif;

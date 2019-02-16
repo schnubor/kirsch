@@ -1,3 +1,5 @@
 <section id="about">
-    About
+    <div class="container">
+        Rechtsanwältin
+    </div>
 </section>
