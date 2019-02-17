@@ -7,12 +7,43 @@
 @import "./about.less";
 @import "./kosten.less";
 @import "./footer.less";
+@import "./scrollToTop.less";
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: @black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 section {
     padding: 80px 0;
+}
+
+hr {
+    border-top: 2px solid @black;
+}
+
+.title {
+    font-family: 'PT Serif', serif;
+    font-size: 42px;
+    padding-bottom: 36px;
+    
+    &.white {
+        color: white;
+    }
+}
+
+.content {
+    p {
+        font-weight: 300;
+        font-size: 18px;
+    }
+}
+
+.animated {
+    opacity: 0;
+    transform: translateY(60px);
 }

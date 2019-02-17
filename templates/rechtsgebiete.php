@@ -11,7 +11,8 @@ try {
 
 <section id="rechtsgebiete">
     <div class="container">
-        <div class="row">
+        <p class="title">Rechtsgebiete</p>
+        <div class="row content">
             <?php
             foreach ($rechtsgebiete as $rechtsgebiet) {
                 renderRechtsgebiet($rechtsgebiet);

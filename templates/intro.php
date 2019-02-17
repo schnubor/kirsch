@@ -1,5 +1,10 @@
-<div class="intro">
-    <div class="overlay">
+<?php
+    $asset = $contentfulClient->getAsset('7GpoXwOMzQBnpaxCCSFmzR');
+    $url = $asset->getFile()->getUrl();
+
+    echo "<div class=\"intro\" style=\"background-image: url('" .$url . "')\">";
+?>
+    <div class="overlay" id="intro">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">

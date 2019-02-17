@@ -1,0 +1,29 @@
+.scrollToTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    right: 24px;
+    bottom: 24px;
+    background-color: @middle-grey;
+    color: @middle-warm-grey;
+    transition: .2s all;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: @red;
+    }
+    
+    a{
+        display: flex;
+        color: inherit;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+}

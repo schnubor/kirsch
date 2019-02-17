@@ -14,13 +14,13 @@
                     <a href="#rechtsgebiete">Rechtsgebiete</a>
                 </li>
                 <li class="navitem">
-                    <a href="#rechtsanwältin">Rechtsanwältin</a>
+                    <a href="#about">Rechtsanwältin</a>
                 </li>
                 <li class="navitem">
-                    <a href="#kosten">Kosten</a>
+                    <a href="#kosten">Vergütung</a>
                 </li>
                 <li class="navitem">
-                    <a href="#kosten">Kontakt</a>
+                    <a href="#kontakt">Kontakt</a>
                 </li>
             </ul>
         </div>

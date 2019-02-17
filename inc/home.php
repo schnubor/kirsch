@@ -18,5 +18,6 @@ Mandantenorientierung, Innovation, Verbindung von Tradition und Moderne.') ?>
         <?php include( TEMPLATE_DIR . 'kosten.php') ?>
         <?php include( TEMPLATE_DIR . 'kontakt.php') ?>
         <?php include( TEMPLATE_DIR . 'footer.php') ?>
+        <?php include( TEMPLATE_DIR . 'scrollToTop.php') ?>
     </body>
 </html>
