@@ -5,7 +5,7 @@
 
 <section id="kosten">
     <div class="container">
-        <p class="title white"><?php echo $entry->title ?></p>
+        <h2 class="title white"><?php echo $entry->title ?></h2>
 
         <div class="row content">
             <div class="col-md-6">

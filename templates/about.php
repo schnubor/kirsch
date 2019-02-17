@@ -8,7 +8,7 @@
 
 <section id="about">
     <div class="container">
-        <p class="title"><?php echo $entry->title ?></p>
+        <h2 class="title"><?php echo $entry->title ?></h2>
     
         <div class="row content">
             <div class="col-md-4 animated">
