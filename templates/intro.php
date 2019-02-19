@@ -10,7 +10,7 @@
                 <div class="col-md-4">
                     <div class="box centered">
                         <h1>
-                            Handwerk, Wirtschaft & IT/Medien
+                            Handwerk, Wirtschaft & IT
                             <hr>
                             allgemeines Zivilrecht
                         </h1>
