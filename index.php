@@ -9,6 +9,7 @@ $less = new \lessc;
 $less->compileFile( LESS_DIR . '/main.less', __DIR__ . '/assets/css/compiled.css' );
 
 $rules = array( 
+    'impressum'   => "/impressum",        // '/impressum'
     'datenschutz' => "/datenschutz",    // '/datenschutz'
     'home'        => "/"                // '/'
 );
