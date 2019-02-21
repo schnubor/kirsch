@@ -1,13 +1,16 @@
 <?php
+    $middleBox = $contentfulClient->getEntry('3T3lIEP8CQrrsIFczbSgLs');
+    $rightBox = $contentfulClient->getEntry('5fWPGBpQFGhKyTF96TZ40L');
     $asset = $contentfulClient->getAsset('7GpoXwOMzQBnpaxCCSFmzR');
     $url = $asset->getFile()->getUrl();
+    $renderer = new \Contentful\RichText\Renderer();
 
     echo "<div class=\"intro\" style=\"background-image: url('" .$url . "')\">";
 ?>
     <div class="overlay" id="intro">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-xl-4">
                     <div class="box centered">
                         <h1>
                             Handwerk, Wirtschaft & IT
@@ -16,28 +19,21 @@
                         </h1>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xl-4">
                     <div class="box">
-                        Neugründung
+                        <?php echo $middleBox->title ?>
                         <hr>
                         <p>
-                            <br>
-                            Max-Josefs-Platz 16 <br>
-                            83022 Rosenheim <br><br>
-
-                            <strong>Rechtsanwältin Kristin Kirsch</strong><br>
-                            <a href="mailto:kanzlei@kirschkanzlei.de">kanzlei@kirschkanzlei.de</a><br>
-                            Telefon 08031/25313
+                        <?php echo nl2br($renderer->render($middleBox->get('content'))); ?>
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xl-4">
                     <div class="box">
-                        Rat neu erfunden
+                        <?php echo $rightBox->title ?>
                         <hr>
                         <p>
-                            Die Anwaltskanzlei im Herzen Rosenheims möchte Leben in das Recht bringen: <br><br>
-Mandantenorientierung, Innovation, Verbindung von Tradition und Moderne.
+                            <?php echo nl2br($renderer->render($rightBox->get('content'))); ?>
                         </p>
                     </div>
                 </div>

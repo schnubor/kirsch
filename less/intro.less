@@ -5,6 +5,11 @@
     background-position: center center;
     position: relative;
 
+    @media (max-width: 1200px) {
+        max-height: initial;
+        height: auto;
+    }
+
     .overlay {
         position: absolute;
         top: 0;
@@ -15,7 +20,14 @@
         display: flex;
         align-items: center;
 
+        @media (max-width: 1200px) {
+            height: auto;
+            position: relative; 
+            padding: 100px 0;
+        }
+
         .box {
+            margin: 24px 0;
             padding: 24px;
             background-color: @light-warm-grey;
             font-family: 'PT Serif', serif;
@@ -31,6 +43,7 @@
                 text-align: center;
                 display: flex;
                 align-items: center;
+                justify-content: center;
             }
 
             h1 {
