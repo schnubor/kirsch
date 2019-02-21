@@ -278,6 +278,20 @@ footer .flex .right a:hover {
   justify-content: center;
   text-decoration: none;
 }
+#legal .logo {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 52px;
+  color: #111111;
+  text-decoration: none;
+  display: block;
+}
+#legal .logo:hover {
+  text-decoration: none;
+}
+#legal h2 {
+  margin-top: 40px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #111111;

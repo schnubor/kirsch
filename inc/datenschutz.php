@@ -1,5 +1,7 @@
 <?php
     require( TEMPLATE_DIR . 'renderHead.php' );
+    require( TEMPLATE_DIR . 'renderLegal.php' );
+    $entry = $contentfulClient->getEntry('4ZWTfKvUDuxNTPTl1HSJB8');
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +12,6 @@
 Mandantenorientierung, Innovation, Verbindung von Tradition und Moderne.', true) ?>
 
     <body>
-        <?php include( TEMPLATE_DIR . 'privacy.php') ?>
+        <?php renderLegal($entry) ?>
     </body>
 </html>

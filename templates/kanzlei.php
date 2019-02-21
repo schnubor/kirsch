@@ -9,11 +9,11 @@
 
         <div class="row content">
             <div class="col-md-6">
-                <?php echo $renderer->render($entry->get('leftColumn')); ?>
+                <?php echo nl2br($renderer->render($entry->get('leftColumn'))); ?>
             </div>
             <div class="col-md-6">
                 <div class="list animated">
-                    <?php echo $renderer->render($entry->get('rightColumn')); ?>
+                    <?php echo nl2br($renderer->render($entry->get('rightColumn'))); ?>
                 </div>
             </div>
         </div>
