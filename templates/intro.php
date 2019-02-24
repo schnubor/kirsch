@@ -10,7 +10,7 @@
     <div class="overlay" id="intro">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-md-4">
                     <div class="box centered">
                         <h1>
                             Handwerk, Wirtschaft & IT
@@ -19,7 +19,7 @@
                         </h1>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-md-4">
                     <div class="box">
                         <?php echo $middleBox->title ?>
                         <hr>
@@ -28,7 +28,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-md-4">
                     <div class="box">
                         <?php echo $rightBox->title ?>
                         <hr>
