@@ -1,7 +1,9 @@
 <footer>
     <div class="container flex">
         <div class="left">
-            <span class="logo">Kirsch</span>
+            <span class="logo">
+                <img src="/assets/images/logo_white.png" alt="Logo" class="logoImg">
+            </span>
             <a href="/datenschutz">Datenschutz</a>
             <a href="/impressum">Impressum</a>
         </div>

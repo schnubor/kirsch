@@ -286,10 +286,12 @@ footer .flex .left {
   align-items: center;
 }
 footer .flex .left .logo {
-  font-size: 24px;
-  font-family: "PT Serif", serif;
-  color: #9c9c9c;
   padding-right: 24px;
+  width: 30px;
+  box-sizing: content-box;
+}
+footer .flex .left .logo img {
+  width: 100%;
 }
 @media (max-width: 350px) {
   footer .flex .left .logo {

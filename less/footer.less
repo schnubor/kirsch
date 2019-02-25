@@ -18,10 +18,13 @@ footer {
         align-items: center;
         .left {
             .logo {
-                font-size: 24px;
-                font-family: "PT Serif", serif;
-                color: @middle-grey;
                 padding-right: 24px;
+                width: 30px;
+                box-sizing: content-box;
+
+                img {
+                    width: 100%;
+                }
 
                 @media (max-width: 350px) {
                     display: none;
