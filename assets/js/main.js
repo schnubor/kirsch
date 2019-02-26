@@ -1,14 +1,3 @@
-$(document).ready(function () {
-    $(".animated").inViewport(function (px) {
-        if (px > 100) {
-            $(this).transition({
-                opacity: 1,
-                y: 0,
-            }, 1000, 'ease');
-        }
-    });
-});
-
 function animateBoxes () {
     $.each( $("#intro .box") , function(index) {
         $(this).delay(250 * index).transition({
@@ -18,7 +7,16 @@ function animateBoxes () {
     });   
 }
 
-$(window).on("load", function () {
+$(document).ready(function () {
+    $(".animated").inViewport(function (px) {
+        if (px > 100) {
+            $(this).transition({
+                opacity: 1,
+                y: 0,
+            }, 1000, 'ease');
+        }
+    });
+
     $(window).scroll(function () {
         const scrollTop = $(this).scrollTop();
 
@@ -31,3 +29,17 @@ $(window).on("load", function () {
 
     animateBoxes();
 });
+
+// $(window).on("load", function () {
+//     $(window).scroll(function () {
+//         const scrollTop = $(this).scrollTop();
+
+//         if (scrollTop > 600) {
+//             $(".scrollToTop").fadeIn();
+//         } else {
+//             $(".scrollToTop").fadeOut();
+//         }
+//     })
+
+//     animateBoxes();
+// });

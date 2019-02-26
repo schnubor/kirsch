@@ -88,10 +88,10 @@
   }
 }
 .intro .overlay .box {
+  font-family: 'PT Serif', serif;
   margin: 24px 0;
   padding: 24px;
   background-color: #efece8;
-  font-family: 'PT Serif', serif;
   font-weight: bold;
   font-size: 32px;
   height: 330px;
