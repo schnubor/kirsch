@@ -10,8 +10,18 @@
 @import "./scrollToTop.less";
 @import "./legal.less";
 
-body {
+// Mixins
+.serif-font {
+    font-family: 'PT Serif', serif;
+}
+
+.sans-serif-font {
     font-family: 'Roboto', sans-serif;
+}
+
+// General
+body {
+    .sans-serif-font();
     color: @black;
     -webkit-font-smoothing: antialiased;
 }
@@ -29,7 +39,7 @@ hr {
 }
 
 .title {
-    font-family: 'PT Serif', serif;
+    .serif-font();
     font-size: 42px;
     padding-bottom: 36px;
     color: @black;

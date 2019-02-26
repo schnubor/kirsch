@@ -4,8 +4,8 @@
             <span class="logo">
                 <img src="/assets/images/logo_white.png" alt="Logo" class="logoImg">
             </span>
-            <a href="/datenschutz">Datenschutz</a>
-            <a href="/impressum">Impressum</a>
+            <a href="/datenschutz" target="_blank">Datenschutz</a>
+            <a href="/impressum" target="_blank">Impressum</a>
         </div>
         <div class="right">
             <span>Site by <a href="https://chko.org"target="_blank">chko.org</a></span>
