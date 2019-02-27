@@ -8,11 +8,8 @@
         <h2 class="title white"><?php echo $entry->title ?></h2>
 
         <div class="row content">
-            <div class="col-md-6">
-                <?php echo nl2br($renderer->render($entry->get('leftColumn'))); ?>
-            </div>
-            <div class="col-md-6">
-                <?php echo nl2br($renderer->render($entry->get('rightColumn'))); ?>
+            <div class="col-md-12">
+                <?php echo nl2br($renderer->render($entry->get('content'))); ?>
             </div>
         </div>
     </div>

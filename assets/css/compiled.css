@@ -8,9 +8,14 @@
 .navflex {
   display: flex;
   align-items: center;
-  height: 100px;
-  padding: 0 24px;
+  height: 120px;
+  padding: 0 34px;
   font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 768px) {
+  .navflex {
+    padding: 0 15px;
+  }
 }
 .navflex .left {
   display: flex;
@@ -26,7 +31,7 @@
   flex-grow: 1;
   justify-content: flex-end;
 }
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .navflex .middle {
     display: none;
   }
@@ -54,7 +59,7 @@
   color: white;
 }
 .navflex .right .logoImg {
-  width: 80px;
+  width: 100px;
   padding-left: 24px;
 }
 .intro {
