@@ -11,13 +11,13 @@
         <h2 class="title"><?php echo $entry->title ?></h2>
     
         <div class="row content">
-            <div class="col-md-4 animated">
+            <div class="col-lg-4 animated">
                 <img src="<?php echo $url ?>" alt="Portrait Kristin Kirsch" class="portrait">
                 <hr>
                 <p>Rechtsanwältin Kristin Kirsch</p>
             </div>
-            <div class="col-md-4"><?php echo $renderer->render($entry->get('leftColumn')); ?></div>
-            <div class="col-md-4"><?php echo $renderer->render($entry->get('rightColumn')); ?></div>
+            <div class="col-lg-4"><?php echo $renderer->render($entry->get('leftColumn')); ?></div>
+            <div class="col-lg-4"><?php echo $renderer->render($entry->get('rightColumn')); ?></div>
         </div>
     </div>
 </section>
