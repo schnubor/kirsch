@@ -29,17 +29,3 @@ $(document).ready(function () {
 
     animateBoxes();
 });
-
-// $(window).on("load", function () {
-//     $(window).scroll(function () {
-//         const scrollTop = $(this).scrollTop();
-
-//         if (scrollTop > 600) {
-//             $(".scrollToTop").fadeIn();
-//         } else {
-//             $(".scrollToTop").fadeOut();
-//         }
-//     })
-
-//     animateBoxes();
-// });
