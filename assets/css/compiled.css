@@ -204,8 +204,8 @@
 }
 .collapse-content {
   margin-bottom: 0;
-  padding: 0 0 16px 26px;
-  color: #626262;
+  padding-left: 28px;
+  color: #111111;
 }
 #kontakt {
   background-color: white;
